@@ -12,3 +12,6 @@ import os
 
 print("현재 작업 디렉토리:", os.getcwd())  # 현재 경로 출력
 print("파일 목록:", os.listdir())  # 현재 디렉토리에 있는 파일들 확인
+
+from google.colab import files
+files.download("output.wav") 
